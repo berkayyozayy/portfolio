@@ -39,7 +39,7 @@ const Services = () => {
 								<FontAwesomeIcon className='icon' icon={faMusic} size="2x" />
 							</div>
 							<h3>DJ and Music Production</h3>
-							<p>I will create a dj mix set and music production according to your musical prefences.</p>
+							<p>I will create a DJ mix set and music production according to your musical prefences.</p>
 						</div>
 					</div>
 				</div>
