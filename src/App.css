@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 :root {
-  --primary-white: #fff;
+  --primary-white: #ffffff;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255,255,255,0);
+  --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-light-gray: #f4f4f4;
+}
+
+body {
+  font-family: 'Nunito', sans-serif !important;
 }
 
 /*-----Navbar-----*/
@@ -77,7 +82,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
   z-index: 1;
 }
 .main-info h1 {
@@ -129,3 +133,84 @@ nav ul li {
     display: none;
   }
 }
+/*-----About Me-----*/
+
+.profile-img {
+  width: 18rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--primary-orange)
+}
+
+.about-me-heading {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+  .photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*-----Services-----*/
+
+.services {
+  padding-bottom: 1.5rem;
+  text-align: center;
+  background: var(--primary-light-gray);
+}
+
+.services h1 {
+  color: var(--primary-dark);
+  transform: uppercase;
+}
+
+.services .circle {
+  position: relative;
+  margin: 0.375rem;
+  background: var(--primary-orange);
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.services .icon {
+  font-size: 1.5rem;
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services .box {
+  height: 16rem;
+  border-bottom: 0.3125rem solid var(--primary-orange);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--primary-white);
+}
+
+.services .box:hover {
+  background: var(--primary-orange);
+  border-bottom: 0.3125rem solid var(--primary-dark);
+}
+
+.services .box:hover .icon {
+  color: var(--primary-dark);
+}
+
+.services .box:hover .circle {
+  color: var(--primary-white);
+}
+
+.services .box:hover p {
+  color: var(--primary-white);
+}
+
