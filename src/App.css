@@ -28,7 +28,6 @@ nav {
 }
 
 /*-----Menu Links-----*/
-
 nav a.nav-link {
   letter-spacing: 0.05rem;
   font-size: 0.8rem;
@@ -44,27 +43,6 @@ nav ul li {
   margin-right: 0.75rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
-}
-
-/*-----Social Media-----*/
-
-a.social {
-  margin: 0 0.5rem;
-  margin-left: 1rem;
-  display: inline-block;
-  transition: transform 250ms;
-
-}
-
-a.social:hover {
-  transform: translateY(-2px);
-  color: orange;
-}
-
-@media(max-width: 768px) {
-  a.social {
-    margin-left: 1.25rem;
-  }
 }
 
 @media(max-width: 768px) {
@@ -86,6 +64,26 @@ a.social:hover {
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange)
+}
+
+/*-----Social Media-----*/
+a.social {
+  margin: 0 0.5rem;
+  margin-left: 1rem;
+  display: inline-block;
+  transition: transform 250ms;
+
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+  color: orange;
+}
+
+@media(max-width: 768px) {
+  a.social {
+    margin-left: 1.25rem;
+  }
 }
 
 /*-----Header-----*/
@@ -160,8 +158,8 @@ a.social:hover {
     display: none;
   }
 }
-/*-----About Me-----*/
 
+/*-----About Me-----*/
 .profile-img {
   width: 18rem;
   border-radius: 50%;
@@ -186,7 +184,6 @@ a.social:hover {
 }
 
 /*-----Services-----*/
-
 .services {
   padding-bottom: 1.5rem;
   text-align: center;
@@ -222,7 +219,6 @@ a.social:hover {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
-  /* overflow: scroll; */
 }
 
 @media(max-width: 768px) {
@@ -249,7 +245,6 @@ a.social:hover {
 }
 
 /*-----Experience-----*/
-
 .experience {
   padding: 0.7rem;
 }
@@ -293,7 +288,6 @@ a.social:hover {
   direction: rtl;
 }
 
-
 .marker {
   width: 1rem;
   height: 1rem;
@@ -317,7 +311,7 @@ a.social:hover {
   font-weight: 900;
 }
 
-/*------------ MEDIA ------------------*/
+/*-----Experiene Media -----*/
 @media(max-width: 768px) {
 .experience .container {
   padding-left: 0;
@@ -340,7 +334,6 @@ a.social:hover {
 }
 
 /*-----Contacts-----*/
-
 .contacts {
   background: var(--primary-dark);
   padding: 3rem 0;
@@ -448,7 +441,6 @@ textarea.form-control {
 }
 
 /*----- Footer ------*/
-
 .footer {
   background: var(--primary-black);
   color: var(--primary-dark-grey);

@@ -1,8 +1,5 @@
 import React from 'react'
-
-import author from '../assets/me2.png'
-// import img2 from '../assets/img2.png'
-// import img3 from '../assets/img3.jpg'
+import author from '../assets/my-image.png'
 
 const AboutMe = () => {
     return (
@@ -12,7 +9,6 @@ const AboutMe = () => {
                     <div className="photo-wrap mb-5">
                         <img className='profile-img' src={author} alt='author'></img>
                     </div>
-
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className='about-me-heading'>About Me</h1>
@@ -29,7 +25,6 @@ const AboutMe = () => {
                     </p>
                 </div>
             </div>
-
         </div>
     )
 }

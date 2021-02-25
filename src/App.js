@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Particles
-      className='particles-canvas'
+        className='particles-canvas'
         params={{
           particles: {
             number: {
