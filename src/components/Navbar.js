@@ -46,7 +46,6 @@ const Navbar = () => {
                             <FontAwesomeIcon icon={faTwitter} size='1.9x' style={{ color: '#fff' }} />
                         </a>
                     </div>
-
                 </div>
             </div>
         </nav>
