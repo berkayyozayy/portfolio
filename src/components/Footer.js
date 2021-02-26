@@ -28,21 +28,21 @@ export const Footer = () => {
                         <div className="d-flex justify-content-center">
                             <div className='share-icons'>
                                 <FacebookShareButton
-                                    url={'https://github.com/berkayyozayy'}
+                                    url={'https://www.berkayozay.com/'}
                                     quote={'Web Developer'}
                                     hashtag='#JavaScript'
                                 >
                                     <FacebookIcon className='mx-3' size={36}></FacebookIcon>
                                 </FacebookShareButton>
                                 <TwitterShareButton
-                                    url={'https://github.com/berkayyozayy'}
+                                    url={'https://www.berkayozay.com/'}
                                     quote={'Web Developer'}
                                     hashtag='#JavaScript'
                                 >
                                     <TwitterIcon className='mx-3' size={36}></TwitterIcon>
                                 </TwitterShareButton>
                                 <LinkedinShareButton
-                                    url={'https://github.com/berkayyozayy'}
+                                    url={'https://www.berkayozay.com/'}
                                     quote={'Web Developer'}
                                     hashtag='#JavaScript'
                                 >
