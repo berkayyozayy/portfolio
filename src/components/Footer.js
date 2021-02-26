@@ -30,21 +30,21 @@ export const Footer = () => {
                                 <FacebookShareButton
                                     url={'https://www.berkayozay.com/'}
                                     quote={'Web Developer'}
-                                    hashtag='#JavaScript'
+                                    hashtag='#Front End Developer'
                                 >
                                     <FacebookIcon className='mx-3' size={36}></FacebookIcon>
                                 </FacebookShareButton>
                                 <TwitterShareButton
                                     url={'https://www.berkayozay.com/'}
                                     quote={'Web Developer'}
-                                    hashtag='#JavaScript'
+                                    hashtag='#Front End Developer'
                                 >
                                     <TwitterIcon className='mx-3' size={36}></TwitterIcon>
                                 </TwitterShareButton>
                                 <LinkedinShareButton
                                     url={'https://www.berkayozay.com/'}
                                     quote={'Web Developer'}
-                                    hashtag='#JavaScript'
+                                    hashtag='#Front End Developer'
                                 >
                                     <LinkedinIcon className='mx-3' size={36}></LinkedinIcon>
                                 </LinkedinShareButton>
