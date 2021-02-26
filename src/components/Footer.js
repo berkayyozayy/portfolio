@@ -29,22 +29,22 @@ export const Footer = () => {
                             <div className='share-icons'>
                                 <FacebookShareButton
                                     url={'https://www.berkayozay.com/'}
-                                    quote={'Web Developer'}
-                                    hashtag='#Front End Developer'
+                                    quote={'Front End Developer'}
+                                    hashtag='#JavaScript'
                                 >
                                     <FacebookIcon className='mx-3' size={36}></FacebookIcon>
                                 </FacebookShareButton>
                                 <TwitterShareButton
                                     url={'https://www.berkayozay.com/'}
-                                    quote={'Web Developer'}
-                                    hashtag='#Front End Developer'
+                                    quote={'Front End Developer'}
+                                    hashtag='#JavaScript'
                                 >
                                     <TwitterIcon className='mx-3' size={36}></TwitterIcon>
                                 </TwitterShareButton>
                                 <LinkedinShareButton
                                     url={'https://www.berkayozay.com/'}
-                                    quote={'Web Developer'}
-                                    hashtag='#Front End Developer'
+                                    quote={'Front End Developer'}
+                                    hashtag='#JavaScript'
                                 >
                                     <LinkedinIcon className='mx-3' size={36}></LinkedinIcon>
                                 </LinkedinShareButton>
