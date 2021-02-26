@@ -27,7 +27,7 @@ const Services = () => {
 							</div>
 							<h3>Android Development</h3>
 							<p>
-								I will bug fix and add new features for your android application. I got the chance to
+								Android is one of my topics of expertise. I can fix bugs and add new features for your android application. I got the chance to
 								work on a mobile application project for QNB Finansbank.
 							</p>
 						</div>
