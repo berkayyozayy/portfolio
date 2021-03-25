@@ -49,7 +49,6 @@ const Experience = () => {
                             <li>Provide user training on SAP modules, including financial accounting, inventory, sales and customer-specific modifications.</li>
                             <li>Responsible for country-wide distribution, requires extensive travel and time management.</li>
                             <li>Collaborate with team members to work effectively and solve problems.</li>
-                            <li>Testing the site for usability and fixing any bugs.</li>
                         </ul>
                     </div>
                 </div>
