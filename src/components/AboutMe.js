@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className='about-me-heading'>About Me</h1>
                     <p>
-                        I am Berkay and I currently reside in Izmir. I recently graduated from Hasan Kalyoncu University with a Computer Engineering degree. Since then I have been working at different companies.
+                        I am Berkay and I currently reside in Istanbul. I recently graduated from Hasan Kalyoncu University with a Computer Engineering degree. Since then I have been working at different companies.
 
                         The current company I work for is Metadata where I got the chance to work on a mobile application project for QNB Finansbank. My day to day tasks are identifying and solving bug reports, investigating crash reports and creating new features for the app. The app is written in Kotlin. This is a great experience for me and I do enjoy working on this project, especially knowing that the features I create on the application would be used by millions of people.
 
